@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ufos über Österreich</title>
+    <link rel="stylesheet" href="game.css">
+
+</head>
+<body>
+    <div class="container">
+        <canvas id="field" width="900" height="600"></canvas>
+        <div class="box">
+            <button id="startBtn" class="btn" onclick="play()">LOS GEHT'S</button>
+            <button id="resetBtn" class="btn hide" onclick="reset()">NOCHMAL</button>
+        </div>
+    </div>
+    <img src="crosshair1.png" alt="ziel" id="cursor" class="cursor">
+    <img src="explosion0.png" alt="explosion"  id="hit" class="hit hide">
+
+    <script src="game.js"></script>
+    
+</body>
+</html>

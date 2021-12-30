@@ -1,0 +1,53 @@
+*{
+    cursor: none;
+}
+
+#field{
+    
+    border: 1px solid black;
+    background-image: url("nature-6847175_1920.jpg");
+    background-size: cover;
+    
+}
+
+.btn{
+    display: inline-block;
+    font-family: 'Courier New';
+    font-size: 40px;
+    margin-top: 15px;
+    width: 200px;
+    background-color: gray;
+    
+}
+
+.cursor {
+    position: absolute;
+    height: 70px;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 2;
+    transition: 0.3s transform ease;
+    transform-origin: 100% 100%;
+}
+
+
+body{
+    background-color: black;
+    justify-content: center;
+    
+}
+
+.container{
+  margin: auto;
+  width: 70%;
+}
+.hit{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    transform: translate(-50%, -50%);
+}
+
+.hide{
+    display: none;
+}
